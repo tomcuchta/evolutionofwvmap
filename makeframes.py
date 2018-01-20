@@ -50,7 +50,7 @@ def month(num):
 def pad_left(n,width,pad="0"):
         return ((pad*width)+str(n))[-width:]
 
-sf = shp.Reader("completelymerge2.shp")
+sf = shp.Reader("vawvmerge.shp")
 recinfo=[]
 	
 for shape in sf.shapeRecords():

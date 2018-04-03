@@ -64,7 +64,6 @@ k=0
 j=0
 
 while(k<len(recinfo)):
-	print k
 	fig = plt.figure()
 	plt.fill([-85,-85,-82.7,-82.7],[36.5,41,41,36.5],color="White",zorder=999)
 	plt.axis('off')

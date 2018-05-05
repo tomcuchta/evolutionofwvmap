@@ -83,9 +83,6 @@ while(k<len(recinfo)):
 				plotshape(m,"Gray")
 		m+=1
 
-#	if(k>220):
-#		plotshape(219,"Blue")
-#		plotshape(220,"Blue")
 	if(k>665):
 		plotshape(220,"Gray")
 	if(k>238):
